@@ -39,8 +39,9 @@ while keep_going == "":
     final_cost = (perimeter * cost_per_m)
 
     # output area and perimeter
-    print("Perimeter: {} units".format(perimeter))
-    print("The cost of the fencing is: ${}".format(final_cost))
+    print(f"Perimeter: {perimeter} units")
+
+    print(f"The cost of the fencing is {final_cost:$.2f}")
     print()
     keep_going = input("Press <enter> to keep going or press any key to quit.")
     print()
@@ -48,3 +49,4 @@ while keep_going == "":
 
 print()
 print("Thanks for using this Fencing Cost Calculator")
+
