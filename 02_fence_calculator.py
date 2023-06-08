@@ -40,7 +40,6 @@ while keep_going == "":
 
     # output area and perimeter
     print(f"Perimeter: {perimeter} units")
-
     print(f"The cost of the fencing is {final_cost:$.2f}")
     print()
     keep_going = input("Press <enter> to keep going or press any key to quit.")
